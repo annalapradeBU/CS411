@@ -32,3 +32,4 @@ def get_animals_in_habitat(self) -> List[Animal]:
 
 def get_habitat_details(self) -> dict:
     pass
+

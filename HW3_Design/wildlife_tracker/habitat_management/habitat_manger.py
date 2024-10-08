@@ -9,6 +9,8 @@ from wildlife_tracker.animal_management.animal import Animal
 from wildlife_tracker.habitat_management.habitat import Habitat
 
 class HabitatManager:
+    def __init__(self):
+        self.habitats: dict[int, Habitat] = {}
 
     def assign_animals_to_habitat(habitat_id: int, animals: List[Animal]) -> None:
         pass

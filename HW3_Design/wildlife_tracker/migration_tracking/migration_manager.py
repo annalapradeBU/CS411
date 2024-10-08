@@ -16,9 +16,9 @@ class MigrationManager:
     def __init__(self):
         self.migrations: dict[int, Migration] = {}
         self.paths: dict[int, MigrationPath] = {}
-        self.migration_path: MigrationPath
+        
 
-    
+
     def get_migrations_by_current_location(self, current_location: str) -> list[Migration]:
         pass
 
@@ -31,13 +31,14 @@ class MigrationManager:
     def get_migrations_by_status(self, status: str) -> list[Migration]:
         pass
 
-    def schedule_migration(self, migration_path: MigrationPath) -> None:
-        pass
 
     def remove_migration_path(self, path_id: int) -> None:
         pass
 
     def get_migrations(self) -> list[Migration]:
+        pass
+    
+    def schedule_migration(self, migration_path: MigrationPath) -> None:
         pass
 
     def get_migration_paths_by_species(self, species: str) -> list[MigrationPath]:

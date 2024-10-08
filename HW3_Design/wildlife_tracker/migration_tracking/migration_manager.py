@@ -18,7 +18,6 @@ class MigrationManager:
         self.paths: dict[int, MigrationPath] = {}
         
 
-
     def get_migrations_by_current_location(self, current_location: str) -> list[Migration]:
         pass
 

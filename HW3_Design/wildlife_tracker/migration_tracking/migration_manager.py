@@ -37,7 +37,7 @@ class MigrationManager:
     def remove_migration_path(self, path_id: int) -> None:
         pass
 
-    def get_migrations() -> list[Migration]:
+    def get_migrations(self) -> list[Migration]:
         pass
 
     def get_migration_paths_by_species(self, species: str) -> list[MigrationPath]:

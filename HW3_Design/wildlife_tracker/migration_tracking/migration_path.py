@@ -8,8 +8,6 @@ from wildlife_tracker.habitat_management.habitat import Habitat
 
 
 class MigrationPath:
-
-
     def __init__(self,
                 path_id: int,
                 species: str,
@@ -21,5 +19,11 @@ class MigrationPath:
         self.destination = destination
         self.start_location = start_location
         self.duration = duration
+
+    def get_migration_path_details(self, path_id) -> dict:
+        pass
+
+    def update_migration_path_details(path_id: int, **kwargs) -> None:
+        pass
 
     pass

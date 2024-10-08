@@ -1,3 +1,5 @@
+from typing import Any
+
 class Migration:
     def __init__(self,
                  current_location: str,
@@ -11,6 +13,11 @@ class Migration:
         self.current_date = current_date
         self.status = status
        
-        
+    def update_migration_details(self, migration_id: int, **kwargs: Any) -> None:
+        pass   
+
+    def get_migration_details(self, migration_id: int) -> dict[str, Any]:
+        pass
+
 
     pass

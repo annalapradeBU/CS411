@@ -9,4 +9,8 @@ class Animal:
         self.health_status = health_status
 
 
-    
+    def update_animal_details(self, animal_id: int, **kwargs: Any) -> None:
+        pass
+
+    def get_animal_details(self, animal_id) -> dict[str, Any]:
+        pass

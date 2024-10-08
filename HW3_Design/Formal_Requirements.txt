@@ -1,0 +1,30 @@
+
+
+Complete the following tasks:
+1. List one goal and one non-goal
+
+Goal: Create a charming and funny program that adds humor to the merging process
+by injecting humours quips 
+
+Non-Goal: Use the time synced as a seed to generate humorous syncing messages.
+
+
+Non-Functional Requirement 1: Randomness
+    Functional Requirements: 
+    1. The system should be able to randomly assign users to control and variant groups for testing, 
+    as well as re-assign those groups when needed for new tests. 
+
+
+    2. To ensure the validity of testing, the system should assign users temporary 
+    codenames to ensure anonymity between group members and allow users to provide feedback without pressure. 
+
+
+Non-Functional Requirement 2: Adjustability
+    Functional Requirements:
+        1. The system should provide PMs with a dashboard to enable 
+        or disable specific joke categories based on company guidelines 
+
+        2. The system should allow employees to set personal preferences 
+        for joke categories and use them to filter jokes displayed during 
+        syncs. 
+

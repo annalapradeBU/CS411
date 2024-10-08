@@ -1,0 +1,33 @@
+
+ Complete the following tasks:
+1. Complete these user stories:
+    * As a vanilla git power-user that has never seen GiggleGit before, I want to…:
+                * carry over the vast majority of my skills from vanilla 
+                git and avoid feeling lost.
+
+        * As a team lead onboarding an experienced GiggleGit user, I want to…
+                * Easily look through their projects, as well as their meme tastes. 
+
+    
+
+2. Create a third user story, one task for this user story, and two associated tickets.
+    USER STORY:  As a person with very limited coding experience, I want to 
+    be able to use GiggleGit without extensive research or headaches, so I can quickly
+    get started and collaborate with my team. 
+
+    TASK: Create a tutorial and manual to guide users 
+
+    TICKET 1: Create an intuitive manual for non-technical users 
+        * We need to implement a manual command that is easy to use and helpful 
+        to users with limited coding experience 
+
+    TICKET 2: Create a tutorial to run on first download 
+        * Implement a step-by-step tutorial to help new users with basic functionality, but 
+        make sure it is skippable so that returning users do not feel patronized. 
+
+
+3. This is not a user story. Why not? What is it?
+    As a user I want to be able to authenticate on a new machine 
+        * This is not a user story because it is too technically focused, lacks a type of 
+        user, and does not have a reason for the feature being implemented.  This is instead closer to a Task. 
+

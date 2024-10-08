@@ -4,7 +4,7 @@
 # specifying starting and ending habitats, species involved, and migration duration
 
 
-from typing import Optional, Any
+from typing import Optional
 
 from wildlife_tracker.habitat_management.habitat import Habitat
 from wildlife_tracker.migration_tracking.migration import Migration
